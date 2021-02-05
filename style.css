@@ -250,6 +250,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -784,8 +785,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #303030!important;
+    background: rgba(243, 151, 108,.9);
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
