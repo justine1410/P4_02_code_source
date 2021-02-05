@@ -24,7 +24,7 @@
 		<div class="container bloc-sm">
 			<nav class="navbar row">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" title="retour à l'acceuil" alt="atlanta web design logo" height="40" /></a>
+					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" title="retour à l'acceuil" height="40" /></a>
 					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
@@ -32,7 +32,7 @@
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
 						<li>
-							<a href="index.html">Accueil</a>
+							<a href="index.html" aria-label="acceuil">Accueil</a>
 						</li>
 					</ul>
 				</div>
@@ -66,25 +66,25 @@
 					<div class="col-sm-6">
 						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
 								<input id="name" aria-label="nom"  class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" aria-label="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="comment nous avez-connu">
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" aria-label="comment nous avez-vous connu" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" aria-label="message" class="form-control" rows="4" cols="50" required></textarea>
 							</div> 
