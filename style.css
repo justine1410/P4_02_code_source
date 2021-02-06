@@ -746,6 +746,7 @@ h4 {
 
 .white {
     color:#ffffff!important;
+    background-color: rgba(243, 151, 108, .7);
 }
 
 .portfolio-thumb {
@@ -782,7 +783,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: rgba(243, 151, 108,.8);
+    background-color: rgba(243, 151, 108,.7);
 }
 
 .tc-white {
@@ -790,7 +791,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background-color:rgba(243, 151, 108, .9);
+    background-color:rgba(243, 151, 108, .7);
     color: #FFFFFF!important;
 }
 
